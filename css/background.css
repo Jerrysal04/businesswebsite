@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------TYPOGRAPHY---------------*/
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 75px;
+}
+
+h3 {
+	font-size: 50px;
+}
+
+h4 {
+	font-size: 25px;
+}
+
+/*----------------HEADER SECTION----------------*/
+
+header {
+	color: red;
+	height: 900px;
+	background-image: url("file:///C:/Users/jeron/Documents/Business_Website/images/background.jpg");
+	position: relative;
+}
+
+.menu {
+	text-align: right;
+	padding-top: 20px;
+}
+
+.menu a:link, .menu a:visited {
+	text-decoration: none;
+	color: red;
+	padding-right: 55px;
+}
+
+.menu a:hover {
+	color: blue;
+}
+
+header section h1  {
+	position: absolute;
+	top: 37%;
+	left: 25%;
+}
+
+header section p {
+	position: absolute;
+	top: 60%;
+	left: 38%;
+}
+
+/*---------------------- SERVICES SECTION ---------------------*/
+#services {
+	color: darkblue;
+}
+
+ #services h4{
+	text-align: center;
+}
+
+#services h3{
+	text-align: center;
+}
+
+/*------------- OUR WORK SECTION ---------------*/
+
+#ourWork {
+	color: darkblue;
+	position: relative;
+	background-color: red;
+}
+
+#ourWork h3 {
+	position: absolute;
+	top: 45%;
+	left: 33%;
+}
+
+#ourWork h4 {
+	position: absolute;
+	top: 30%;
+	left: 34%; 
+}
+
+#ourWork img {
+	margin-bottom: 10px;
+	width: 460px;
+	height: 400px;
+}
+
+/*----------------- TEAMS SECTION ---------------*/
+
+#Teams {
+	color: red;
+	background-color: blue;
+}
+
+#Teams img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border: 3px solid white;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+#Teams h3 {
+	position: absolute;
+	top: 45%;
+	left: 40%;
+}
+
+#Teams h4 {
+	position: absolute;
+	top: 30%;
+	left: 41%;
+}
+
+#Teams .xlg_12_col {
+	text-align: center;
+}
+
+#Teams h5 {
+	font-size: 21px;
+	font-weight: 400;
+	margin-bottom: 7px;
+	margin-top: 10px;
+}
+
+#Teams h6 {
+	font-size: 17px;
+	color: indianred;
+}
+
+/*------------- CONTACT SECTION --------------*/
+#contact {
+	color: darkblue;
+	background-color: red;
+	position: relative;
+	height: 500px;
+}
+
+.contactForm {
+	background-color: red;
+	position: absolute;
+	left: 53%;
+	margin-top: 35px;
+}
+
+.contactText {
+	top: -15px;
+	position: relative;
+}
+
+#contact h3 {
+	position: absolute;
+	top: 45%;
+	left: 33%;
+}
+
+#contact h4 {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}
+
+#contact h5 {
+	font-size: 21px;
+	color: darkblue;
+	margin-bottom: 15px;
+	font-weight: 600px;
+}
+
+.contactIcons span {
+	font-size: 15px;
+	color: darkblue;
+}
+
+span.contactText {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.contactIcons {
+	position: absolute;
+	left: 35%;
+}
+
+.submit {
+	background-color: blue;
+	color: white;
+	border: none;
+	width: 80px;
+	height: 25px;
+	
+}
+/*-------------- FOOTER SECTION ----------*/
+.socialFooter img {
+	color: red;
+	position: relative;
+}
+
+footer {
+	position: relative;
+	height: 250px;
+}
+
+.socialFooter {
+	position: absolute;
+	bottom: 10%;
+	left: 47%;
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*======================GRID STYLES=================*/
+
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.xlg_container {
+	width: 1440px;
+	margin: 0 auto;
+	outline: 1px solid #659;
+}
+
+
+.xlg_1_col {
+	width: 100px;
+	margin-right: 20px;
+	float: left;
+	outline: 1px solid #ccc;
+}
+
+.xlg_2_col {
+	width: 220px;
+	margin-right: 20px;
+	float: left;
+	outline: 1px solid #ccc;
+}
+
+.xlg_3_col {
+	width: 340px;
+	margin-right: 20px;
+	float: left;
+	outline: 1px solid #ccc;
+}
+
+.xlg_4_col {
+	width: 460px;
+	margin-right: 20px;
+	float: left;
+	outline: 1px solid #ccc;
+}
+
+.xlg_6_col {
+	width: 700px;
+	margin-right: 20px;
+	float: left;
+	outline: 1px solid #ccc;
+}
+
+.xlg_12_col {
+	width: 1420px;
+	margin-right: 20px;
+	float: left;
+	outline: 1px solid #ccc;
+}
+
+.start {
+	margin-left: 10px;
+	
+}
+
+.end {
+	margin-right: 10px;
+}
+
+/*============ GRID ROWS =============*/
+.xlg_3_row {
+	position: relative;
+	height: 255px;
+}
+
+.xlg_4_row {
+	position: relative;
+	height: 340px;
+}
+
+.xlg_8_row {
+	position: relative;
+	height: 680px;
+}

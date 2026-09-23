@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.code {
+	width: 50px;
+	height: relative;
+}
+
+.sparkle {
+	width: 50px;
+	height: relative;
+}
+
+.video {
+	width: 50px;
+	height: relative;
+}
+
+.pen {
+	width: 50px;
+	height: relative;
+}
+
+.gamepad {
+	width: 50px;
+	height: relative;
+}
+
+.file {
+	width: 50px;
+	height: relative;
+}
+
+.location {
+	width: 40px;
+	height: relative;
+}
+
+.telephone {
+	width: 40px;
+	height: relative;
+}
+
+.email {
+	height: relative;
+	width: 40px;
+}
+
+.insta {
+	height: relative;
+	width: 30px;
+}
+
+.youtube {
+	height: relative;
+	width: 30px;
+}
+
+.facebook {
+	height: relative;
+	width: 30px;
+}
